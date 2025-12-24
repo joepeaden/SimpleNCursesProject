@@ -3,6 +3,7 @@ g++ main.cpp \
   -std=c++17 \
   -I/opt/homebrew/include \
   -lncurses \
+  -lmenu \
   -o game
 
 if [ $? -ne 0 ]; then
